@@ -110,7 +110,7 @@ Jeigu viską padarėte teisingai turėtumėte pamatyti tokį vaizdą:
 
 ![Perlok](Img/Perlok.PNG)
 
-* Naudodami "conda activate base" koamndą grįškite į pradinę darbinę aplinką ir suveskite "perl -v". Atlikę teisingai iki šiol pateiktas užduotis turėtumėte gauti klaidą. Kodėl taip nutiko? Viskas dėl to, kad programinę įrangą įrašėme į BioAnalize darbinę aplinką. Iš kitos aplinkos įrašytų programinių paketų nepasieksime. Taip veikia conda "organizatorius"
+* Naudodami "conda activate base" komandą grįškite į pradinę darbinę aplinką ir suveskite "perl -v". Atlikę teisingai iki šiol pateiktas užduotis turėtumėte gauti klaidą. Kodėl taip nutiko? Viskas dėl to, kad programinę įrangą įrašėme į BioAnalize darbinę aplinką. Iš kitos aplinkos įrašytų programinių paketų nepasieksime. Taip veikia conda "organizatorius"
 
 ## Pratybomų medžiagos atsisiuntimas
 Failų atsisiuntimui naudokime `wget` paketą, o išpakavimui `unzip` ar `tar` paketą. Norėdami parsisiųsti programinius paketus į savo darbinę aplinką naudokite komandas:
