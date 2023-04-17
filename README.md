@@ -1,8 +1,9 @@
-# Pirmosios pratybos
+# Pratybos
 "Biotechnologijos metodai ir bioinformacinė analizė" užsiėmimų pratybų medžiaga medicinos genetikos pirmo kurso studentams.
 
 # Atsiskaitymas už pratybas
 Studentas savarankiškai paruošia duotos klinikinės situacijos analizės pristatymą. 
+
 # Pristatymo vertinimo kriterijai
 #### Klinikinės situacijos aptarimas – paciento fenotipas, atlikti instrumentiniai tyrimai, genealogija, kiti svarbūs faktai apie pacientą (2 balai);
 
@@ -17,7 +18,7 @@ Studentas savarankiškai paruošia duotos klinikinės situacijos analizės prist
 ## Reikalinga programinė įranga
 Programinė įranga priklauso nuo Jūsų gebėjimo valdyti terminalą bei komandines eilutes. Dažnai MacOS ar Linux vartojams papildomos programinės įrangos nereikia. Tačiau Windows vartotojai susiduria su papildomomis problemomis.
 
-Pagrindinė programinė įranga - `Perl` ir `ANNOVAR`
+Pagrindiniai programiniai paketai naudojami failų anotavimui - `Perl` ir `ANNOVAR`.
 
 Prisiminimui pagrindinės UNIX komandos - https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
 
@@ -27,7 +28,7 @@ Programinės įrangos valdymui Windows aplinkoje rekomenduoju naudoti `Anaconda`
 
 ![Anaconda Installation](Img/Anaconda_pradzia.PNG)
 
-Šių pratybų tikslams naudosime paprastą "Light" tipo `Anaconda` versiją - [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+Šių pratybų tikslams pasiekti naudosime paprastą "Light" tipo `Anaconda` versiją, kuri užima nedaug resursų ir tausoja vietą - [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
 
 ![Miniconda Installation](Img/Miniconda.PNG)
 
@@ -112,7 +113,7 @@ Jeigu viską padarėte teisingai turėtumėte pamatyti tokį vaizdą:
 * Naudodami "conda activate base" koamndą grįškite į pradinę darbinę aplinką ir suveskite "perl -v". Atlikę teisingai iki šiol pateiktas užduotis turėtumėte gauti klaidą. Kodėl taip nutiko? Viskas dėl to, kad programinę įrangą įrašėme į BioAnalize darbinę aplinką. Iš kitos aplinkos įrašytų programinių paketų nepasieksime. Taip veikia conda "organizatorius"
 
 ## Pratybomų medžiagos atsisiuntimas
-Failų atsisiuntimui naudokime `wget` paketą, o išpakavimui `unzip` ar `tar` paketą. Norėdami jas parsisiųsti į savo darbinę aplinką naudokite komandas:
+Failų atsisiuntimui naudokime `wget` paketą, o išpakavimui `unzip` ar `tar` paketą. Norėdami parsisiųsti programinius paketus į savo darbinę aplinką naudokite komandas:
 ```
 conda activate BioAnalize
 ```
@@ -122,15 +123,17 @@ conda install -c menpo wget -y
 ```
 conda install -c conda-forge m2-unzip -y
 ```
-Sukurkite atskirą direktoriją pratyboms ir į ją įeikite
+Sukurkite atskirą direktoriją pratyboms ir į ją įeikite.
 ```
-Kokias dvi komandas naudosite užduočiai atlikti?
+Kokias dvi komandas naudosite užduočiai atlikti? Kokios komandos pagalba patvirtinti kokioje direktorijoje esate?
 ```
 Jeigu kyla klausimų galite užeiti į tinklapį - https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
 
 // Aptarimo taškas. Prieš tęsdami darbus aptarkime eigą.
 
 ## ANNOVAR užduotis
+
+ANNOVAR tai puikus įrankis skirtas atlikti anotaciją. Visą dokumentaciją galite rasti užėję į [oficialų tinklapį](https://annovar.openbioinformatics.org/en/latest/). Užduotims atlikti naudosime supaprastintą "lengvą" ANNOVAR versiją, kuri paprastai, su visomis duomenų bazėmis užima labai daug vietos.
 
 Norėdami atsisiųsti pratyboms reikalingą "lengvą" ANNOVAR versiją naudokitės komanda:
 ```
@@ -150,21 +153,23 @@ arba
 
 tar -xvf pratybu_medziaga.zip
 ```
-Persikelkite į `exercise1` direktoriją.
-```
-Kokią komandą naudosite?
-```
+Persikelkite į `exercise1` direktoriją (Kokią komandą naudosite?). Vidinėje direktorijoje `humandb` įkeltos kelios duomenų bazės reikalingos tolimesniai anotacijai. Daugumą anotacinių įrankių, kuriuos naudosime vėlesniuose darbuose galite rasti [čia](https://annovar.openbioinformatics.org/en/latest/user-guide/filter/).
+
 Turėtumėte būti šioje direktorijoje:
 
 ![Dir](Img/exc1.png)
 
-Suanotuokime failą:
+Suanotuokime failą naudodami komandinę eilutę:
 ```
 perl table_annovar.pl example/ex2.vcf humandb/ -buildver hg19 -out myanno -remove -protocol refGeneWithVer,cytoBand,gnomad211_exome -operation g,r,f -nastring . -vcfinput -polish
 ```
-// Aptarimo taškas. Prieš tęsdami darbus aptarkime eigą.
+Po anotacijos turite pamatyti `myanno.hg19_multianno.txt` ir `myanno.hg19_multianno.vcf` failus. Atsidarykite naudodami Excel ar analogišką programą.
 
-## 
+// Aptarimo taškas. Prieš tęsdami darbus aptarkime eigą ir komandinę eilutę. Ką reiškia `g`, `r`, `f`. Kodėl matome `.`?
+
+## Egzomo duomenų anotavimas naudojant ANNOVAR
+
+Šiai užduočiai naudosime duomenis iš [straipsnio](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5111005/).
 
 Atsisiųskite failus:
 ```
@@ -182,7 +187,11 @@ Kokią komandą naudosite?
 ```
 Perkelkite išskleistus failus naudodami komandą:
 ```
+Windows:
 mkdir VCF_files & move "File 2_KBG family Utah_VCF files\*" VCF_files & rmdir "File 2_KBG family Utah_VCF files"
+
+MacOS/UNIX:
+mv '.\File 2_KBG family Utah_VCF files\' VCF_files
 ```
 
 Naudodami ANNOVAR įrankį suanotuokime probando egzomo duomenų `.vcf` failą.
@@ -194,19 +203,21 @@ perl table_annovar.pl VCF_files/proband.vcf -buildver hg19 humandb -out proband.
 // Aptarimo taškas. Prieš tęsdami darbus aptarkime eigą.
 
 ## SARS-CoV-2 duomenys
+ANNOVAR programa gali būti naudojama įvauraus tipo duomenim anotuoti. Svarbu kokia "užduotį" ir "parametrus" užduodame programai. Panagrinėkime paciento mėginio sekoskaitos duomenis. Visi nustatyti SARS-CoV-2 variantai pateikti faile `ex3.avinput`.
 
-ex3.avinput failo struktūra:
+Failo struktūra:
 ```
 NC_045512v2     29095   29095   C       T
 NC_045512v2     26144   26144   G       T
 NC_045512v2     28144   28144   T       C
 ```
+Tai ne toks plačiai naudojamas, bet paprastesnis duomenų vizualizacijos metodas užrašytas `.avinput' formatu. Jam būdingos penkios eilutės (kokios?).
+
 Suanotuojame turimą informaciją.
 ```
 perl table_annovar.pl example/ex3.avinput sarscov2db -build NC_045512v2 -protocol avGene -operation g -out ex3
 
 ```
-
 `ex3.NC_045512v2_multianno.txt` rasite suanotuotą informaciją. Panagrinėkime.
 
 // Aptarimo taškas. Prieš tęsdami darbus aptarkime eigą.
@@ -238,9 +249,17 @@ mkdir Phen2Gene & xcopy /e "Phen2Gene-1.2.2" "Phen2Gene" & rmdir /s /q "Phen2Gen
 ```
 Kokią komandą naudosite?
 ```
+
+* Labiau patyrusiems vartotojams, vietoj anksčiau minėtų eilučių, galima "klonuoti" duomenų saugyklą:
+```
+conda install git
+git clone https://github.com/WGLab/Phen2Gene.git
+cd Phen2Gene
+```
+
 Sukurtoje direktorijoje persikelkite į `lib` direktoriją (Kokią komandą naudosite?) ir atsisiųskite duomenis:
 ```
-wget --no-check-certificate "https://github.com/WGLab/Phen2Gene/releases/download/1.1.0/H2GKBs.zip" -O Phen2Gene.zip
+wget --no-check-certificate "https://github.com/WGLab/Phen2Gene/releases/download/1.1.0/H2GKBs.zip" -O H2GKBs.zip
 
 arba
 
@@ -273,22 +292,22 @@ python phen2gene.py -m HP:0000021 HP:0000027 HP:0030905 HP:0010628 -out out/prio
 
 *** Nukopijuokite `proband.annovar.hg19_multianno.txt` failą į `Phen2Gene` direktoriją!!!
 
+Mes jau turime sugeneruotus paciento HPO fenotipo duomenis `example` direktorijoje, tad paleiskite komandinę eilutę:
 ```
 python phen2gene.py -f example/ANKRD11_id.txt -w sk -out ankrd11
 ```
 
-Judame toliau. Mus domina reti variantai galėję sukelti paciento fenotipą. Tam naudosime awk paketą ir komandinę eilutę:
+Judame toliau. Mus domina reti variantai (MAF <1%) galėję turėti įtakos paciento fenotipui. Tam naudosime awk paketą ir komandinę eilutę:
 ```
 awk "$11 <= 0.01 || $11 == \""."\"" FS="\t" proband.annovar.hg19_multianno.txt > filtered.proband.annovar.hg19_multianno.txt
 ```
-Panagrinėkite gautą failą.
-
+Panagrinėkite gautą failą. Kas yra $11?
 ```
 python example/filterbyannovar.py -pre ankrd11/output_file.associated_gene_list -post ankrd11filter -anno filtered.proband.annovar.hg19_multianno.txt
 ```
-Then view the newly created file `ankrd11filter` and note the top 10 genes, and our causal gene ANKRD11 at number 1.  It was previously number 2 if you check `ankrd11/output_file.associated_gene_list`.
+Naujai sugeneruotame faile `ankrd11filter` (atsidarykite su notepad) atkreipkite dėmesį į top 10 genų. Už paciento fenotipą atsakingas ANKRD11 "puikuojasi" pirmoje vietoje. Anksčiau gautame faile `ankrd11/output_file.associated_gene_list` šis genas užėmė antrą vietą.
 
-## Papildoma užduotis
+## Kaip dar galime panaudoti Phen2Gene programą. Užduotis
 
 Eikite į https://phen2gene.wglab.org ir paspauskite `Patient notes`:
 
