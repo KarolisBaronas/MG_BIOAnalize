@@ -329,7 +329,7 @@ Pastebėsite, kad ANKRD11 genas sąraše yra top 3. Kodėl ne top 2 kaip ankstes
 
 ![image4](https://user-images.githubusercontent.com/6568964/84083649-0fa48580-a9b0-11ea-81ed-7d999f40eade.png)
 
-Pabandykite patys įvesti HPO fenotipus į `HPO IDs` iš `example/ANKRD11.txt` direktorrijos. Spauskite `Submit`.
+Pabandykite patys įvesti HPO fenotipus į `HPO IDs` iš `example/ANKRD11.txt` direktorijos. Spauskite `Submit`.
 
 ![image5](https://user-images.githubusercontent.com/6568964/84083556-df5ce700-a9af-11ea-87c5-d02cc742b8c4.png)
 
