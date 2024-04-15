@@ -1,3 +1,5 @@
+# VISADA PASITIKRINKITE "Kitam kartui.md"
+
 # Pratybos
 "Biotechnologijos metodai ir bioinformacinė analizė" užsiėmimų pratybų medžiaga medicinos genetikos pirmo kurso studentams.
 
