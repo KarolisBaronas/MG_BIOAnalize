@@ -2,7 +2,7 @@
 
 Pratyboms reikalingus failus perkėliau į Jūsų home direktorijas. 
 
-Norint suaktyvuoti conda parašykite:
+Norint suaktyvuoti conda zmgk2 serveryje parašykite:
 
 ```
 source /opt/packages/anaconda3/etc/profile.d/conda.sh
