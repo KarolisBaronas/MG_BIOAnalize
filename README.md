@@ -135,15 +135,13 @@ Jeigu kyla klausimų galite užeiti į tinklapį - https://maker.pro/linux/tutor
 
 ANNOVAR tai puikus įrankis skirtas atlikti anotaciją. Visą dokumentaciją galite rasti užėję į [oficialų tinklapį](https://annovar.openbioinformatics.org/en/latest/). Užduotims atlikti naudosime supaprastintą "lengvą" ANNOVAR versiją, kuri paprastai, su visomis duomenų bazėmis užima labai daug vietos.
 
-Norėdami atsisiųsti pratyboms reikalingą "lengvą" ANNOVAR versiją naudokitės komanda:
+Norėdami atsisiųsti pratyboms reikalingą "lengvą" ANNOVAR versiją naudokitės resursais iš:
 ```
-wget --no-check-certificate "https://transfer.sh/get/F5tQyt/pratybu_medziaga.zip" -O pratybu_medziaga.zip
 
-arba
+https://drive.filen.io/f/881d7a47-b09d-439e-a503-a090d79d931e#s8I3gHq0RWOl7W05Kyfq1QUd25k9zHcP
 
-https://drive.filen.io/d/169c27f3-129f-4e37-8f82-abe95bf72597#Yy3JDsGVlgkzEtrBEvZIVl5Ah0a2gFAn
+* Įkelkite failus į savo darbinę direktoriją
 
-* Atsisiuntus duomenis iš https://drive.filen.io/* hosto perkelkite juos į darbinę direktoriją. Naudojant wget komandą darbiniai failai jau bus Jūsų darbinėje direktorijoje. *
 ```
 Išskleiskit atsiųstą failą naudodami komandą:
 ```
@@ -171,17 +169,12 @@ Po anotacijos turite pamatyti `myanno.hg19_multianno.txt` ir `myanno.hg19_multia
 
 Šiai užduočiai naudosime duomenis iš [straipsnio](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5111005/).
 
-Atsisiųskite failus:
 ```
-wget --no-check-certificate "https://transfer.sh/get/DV4rDJ/Utah_VCF_files.zip" -O Utah_VCF_files.zip
 
-arba
+Naudosime Utah_VCF_files.zip failą iš anksčiau atsisiųstų resursų
 
-https://drive.filen.io/d/fd6f3e0e-713c-41c4-9eae-6a25e597243e#S8yYENxnXp75aJN3VXZ0J9zcS6R0jfsH
-
-* Atsisiuntus duomenis iš https://drive.filen.io/* hosto perkelkite juos į darbinę direktoriją. Naudojant wget komandą darbiniai failai jau bus Jūsų darbinėje direktorijoje. *
 ```
-Išskleiskite atsisiųstus failus.
+Išskleiskite failus.
 ```
 Kokią komandą naudosite?
 ```
@@ -227,17 +220,13 @@ perl table_annovar.pl example/ex3.avinput sarscov2db -build NC_045512v2 -protoco
 
 Šiai užduočiai atlikti reikalingi `python`, `numpy`, `m2-base` paketai. Kokią komandinę eilutę naudosite norėdami įrašyti reikalingus paketus?
 
-Judame toliau. Atsisiųskite failus:
+Judame toliau. 
 ```
-wget --no-check-certificate "https://transfer.sh/get/NrsHee/Phen2Gene-1.2.2.zip" -O Phen2Gene.zip
 
-arba
+Naudosime Phen2Gene-1.2.2.zip failą iš anksčiau atsisiųstų resursų
 
-https://drive.filen.io/d/c29d7bc0-7f15-4af5-9025-684cc3502447#pXoLWpribMaA8pNhQCNV6kWnh1f0KXIP
-
-* Atsisiuntus duomenis iš https://drive.filen.io/* hosto perkelkite juos į darbinę direktoriją. Naudojant wget komandą darbiniai failai jau bus Jūsų darbinėje direktorijoje. *
 ```
-Išskleiskite atsisiųstus failus.
+Išskleiskite failus.
 ```
 Kokią komandą naudosite?
 ```
@@ -257,17 +246,13 @@ git clone https://github.com/WGLab/Phen2Gene.git
 cd Phen2Gene
 ```
 
-Sukurtoje direktorijoje persikelkite į `lib` direktoriją (Kokią komandą naudosite?) ir atsisiųskite duomenis:
+Sukurtoje direktorijoje persikelkite į `lib` direktoriją (Kokią komandą naudosite?).
 ```
-wget --no-check-certificate "https://github.com/WGLab/Phen2Gene/releases/download/1.1.0/H2GKBs.zip" -O H2GKBs.zip
 
-arba
+Naudosime H2GKBs.zip failą iš anksčiau atsisiųstų resursų
 
-https://drive.filen.io/d/abbcdd39-371a-4b04-9666-8d9287c4c2db#sLJ6v0CD1E35RJMZPfWKN3fM8ZXF5Pm3
-
-* Atsisiuntus duomenis iš https://drive.filen.io/* hosto perkelkite juos į darbinę direktoriją. Naudojant wget komandą darbiniai failai jau bus Jūsų darbinėje direktorijoje. *
 ```
-Išskleiskite atsisiųstus failus.
+Išskleiskite failus.
 ```
 Kokią komandą naudosite?
 ```
