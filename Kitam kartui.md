@@ -4,17 +4,17 @@ Pratyboms reikalingus failus perkėliau į Jūsų home direktorijas.
 
 Norint suaktyvuoti conda parašykite:
 
-``
+```
 source /opt/packages/anaconda3/etc/profile.d/conda.sh
 conda activate
 
-``
+```
 Pilna Annovar versija įkelta į direktoriją:
 
-``
+```
 /opt/packages/annovar/
 
-``
+```
 
 # Pratyboms 2023-04-22
 
