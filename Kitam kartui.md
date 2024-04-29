@@ -25,3 +25,37 @@ Nuodugniai peržvelgti ir susipažinti su anotacijoje naudojamais įrankiais ir 
 Nuodugniai perskaityti ir įsidėmėti/pasižymėti įrankių cutoff reikšmes: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9774026/
 
 Susipažinti: https://varnomen.hgvs.org/
+
+# Pratyboms 2023-04-29
+
+Galimos db serveryje:
+
+cytoBand
+refGene
+avsnp150
+1000g2015aug_all
+1000g2015aug_eur
+exac03nonpsych
+gnomad_genome
+kaviar_20150923
+clinvar_20221231
+intervar_20180118
+cosmic70
+regsnpintron
+dbscsnv11
+dbnsfp41a
+cadd13gt10
+gerp++gt2
+phastConsElements46way
+dbnsfp35a
+
+Konvertavimas:
+```
+perl /opt/packages/annovar/convert2annovar.pl  -format vcf4 --withzyg /opt/home/karolisb/test.vcf > /opt/home/karolisb/test.avinput
+
+```
+Anotavimas:
+```
+perl /opt/packages/annovar/table_annovar.pl /opt/home/karolisb/test.avinput /opt/packages/annovar/humandb/ -buildver hg19 -out /opt/home/karolisb/output_test.txt -remove -protocol cytoBand,refGene,avsnp150,1000g2015aug_all,1000g2015aug_eur,exac03nonpsych,gnomad_genome,kaviar_20150923,clinvar_20221231,intervar_20180118,cosmic70,regsnpintron,dbscsnv11,dbnsfp41a,cadd13gt10,gerp++gt2,phastConsElements46way,dbnsfp35a -operation r,g,f,f,f,f,f,f,f,f,f,f,f,f,f,f,r,f -nastring NA -otherinfo
+
+```
