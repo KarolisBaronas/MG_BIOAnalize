@@ -31,22 +31,39 @@ Susipažinti: https://varnomen.hgvs.org/
 Galimos db serveryje:
 
 cytoBand
+
 refGene
+
 avsnp150
+
 1000g2015aug_all
+
 1000g2015aug_eur
+
 exac03nonpsych
+
 gnomad_genome
+
 kaviar_20150923
+
 clinvar_20221231
+
 intervar_20180118
+
 cosmic70
+
 regsnpintron
+
 dbscsnv11
+
 dbnsfp41a
+
 cadd13gt10
+
 gerp++gt2
+
 phastConsElements46way
+
 dbnsfp35a
 
 Konvertavimas:
