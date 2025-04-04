@@ -123,6 +123,8 @@ conda activate BioAnalize
 conda install -c menpo wget -y
 ```
 ```
+* Pirma patikrinkite ar unzip programa neinstaliuota
+
 conda install -c conda-forge m2-unzip -y
 ```
 Sukurkite atskirą direktoriją pratyboms ir į ją įeikite.
@@ -137,12 +139,10 @@ Jeigu kyla klausimų galite užeiti į tinklapį - https://maker.pro/linux/tutor
 
 ANNOVAR tai puikus įrankis skirtas atlikti anotaciją. Visą dokumentaciją galite rasti užėję į [oficialų tinklapį](https://annovar.openbioinformatics.org/en/latest/). Užduotims atlikti naudosime supaprastintą "lengvą" ANNOVAR versiją, kuri paprastai, su visomis duomenų bazėmis užima labai daug vietos.
 
-Norėdami atsisiųsti pratyboms reikalingą "lengvą" ANNOVAR versiją naudokitės resursais iš:
+Pratyboms reikalinga "lengva" ANNOVAR versija bei kiti resursai:
 ```
 
-https://drive.filen.io/f/881d7a47-b09d-439e-a503-a090d79d931e#s8I3gHq0RWOl7W05Kyfq1QUd25k9zHcP
-
-* Įkelkite failus į savo darbinę direktoriją
+/opt/shared/MG25/Pirmos_pratybos/
 
 ```
 Išskleiskit atsiųstą failą naudodami komandą:
