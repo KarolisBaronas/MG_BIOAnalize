@@ -145,7 +145,12 @@ Pratyboms reikalinga "lengva" ANNOVAR versija bei kiti resursai:
 /opt/shared/MG25/Pirmos_pratybos/
 
 ```
-Išskleiskit atsiųstą failą naudodami komandą:
+ANNOVAR užduočiai reikės pratybu_medziaga.zip failiuko esančio resursų kataloge.
+```
+Su kokia komanda galite nukopijuoti failiuką į savo darbinį katalogą?
+```
+
+Išskleiskit nukopijuotą failą naudodami komandą:
 ```
 unzip pratybu_medziaga.zip
 
