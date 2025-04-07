@@ -16,17 +16,17 @@ Pilna Annovar versija įkelta į direktoriją:
 
 ```
 
-# Pratyboms 2023-04-22
+# Pratyboms 2025-04-14
 
 Pabaigti pirmų pratybų užduotis !
 
 Nuodugniai peržvelgti ir susipažinti su anotacijoje naudojamais įrankiais ir duomenų bazėmis: https://annovar.openbioinformatics.org/en/latest/
 
-Nuodugniai perskaityti ir įsidėmėti/pasižymėti įrankių cutoff reikšmes: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9774026/
+Nuodugniai perskaityti ir pasižymėti/išsirašyti įrankių cutoff reikšmes: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9774026/
 
 Susipažinti: https://varnomen.hgvs.org/
 
-# Pratyboms 2023-04-29
+# Pratyboms 2023-04-28
 
 Galimos db serveryje:
 
