@@ -1,7 +1,5 @@
 # SVARBI INFORMACIJA
 
-Pratyboms reikalingus failus perkėliau į Jūsų home direktorijas. 
-
 Norint suaktyvuoti conda zmgk2 serveryje parašykite:
 
 ```
