@@ -1,5 +1,5 @@
 # VISADA PASITIKRINKITE "Kitam kartui.md"
-Atnaujinta 2024-04-15
+Atnaujinta 2025-04-07
 # Pratybos
 "Biotechnologijos metodai ir bioinformacinė analizė" užsiėmimų pratybų medžiaga medicinos genetikos pirmo kurso studentams.
 
@@ -114,7 +114,7 @@ Jeigu viską padarėte teisingai turėtumėte pamatyti tokį vaizdą:
 
 * Naudodami "conda activate base" komandą grįškite į pradinę darbinę aplinką ir suveskite "perl -v". Atlikę teisingai iki šiol pateiktas užduotis turėtumėte gauti klaidą. Kodėl taip nutiko? Viskas dėl to, kad programinę įrangą įrašėme į BioAnalize darbinę aplinką. Iš kitos aplinkos įrašytų programinių paketų nepasieksime. Taip veikia conda "organizatorius"
 
-## Pratybomų medžiagos atsisiuntimas
+## Pratybomų medžiaga
 Failų atsisiuntimui naudokime `wget` paketą, o išpakavimui `unzip` ar `tar` paketą. Norėdami parsisiųsti programinius paketus į savo darbinę aplinką naudokite komandas:
 ```
 conda activate BioAnalize
@@ -139,7 +139,7 @@ Jeigu kyla klausimų galite užeiti į tinklapį - https://maker.pro/linux/tutor
 
 ANNOVAR tai puikus įrankis skirtas atlikti anotaciją. Visą dokumentaciją galite rasti užėję į [oficialų tinklapį](https://annovar.openbioinformatics.org/en/latest/). Užduotims atlikti naudosime supaprastintą "lengvą" ANNOVAR versiją, kuri paprastai, su visomis duomenų bazėmis užima labai daug vietos.
 
-Pratyboms reikalinga "lengva" ANNOVAR versija bei kiti resursai:
+Pratyboms reikalinga "lengva" ANNOVAR versija bei kiti resursai talpinami:
 ```
 
 /opt/shared/MG25/Pirmos_pratybos/
