@@ -26,7 +26,7 @@ Nuodugniai perskaityti ir pasižymėti/išsirašyti įrankių cutoff reikšmes: 
 
 Susipažinti: https://varnomen.hgvs.org/
 
-# Pratyboms 2023-04-28
+# Pratyboms 2025-04-28
 
 Galimos db serveryje:
 
