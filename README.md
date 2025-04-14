@@ -291,7 +291,7 @@ python phen2gene.py -f example/ANKRD11_id.txt -w sk -out ankrd11
 
 Judame toliau. Mus domina reti variantai (MAF <1%) galėję turėti įtakos paciento fenotipui. Tam naudosime awk paketą ir komandinę eilutę:
 ```
-awk "$11 <= 0.01 || $11 == \""."\"" FS="\t" proband.annovar.hg19_multianno.txt > filtered.proband.annovar.hg19_multianno.txt
+awk -F"\t" '$11 <= 0.01 || $11 == "."' proband.annovar.hg19_multianno.txt > filtered.proband.annovar.hg19_multianno.txt
 ```
 Panagrinėkite gautą failą. Kas yra $11?
 ```
