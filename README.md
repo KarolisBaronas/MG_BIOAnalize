@@ -272,11 +272,11 @@ Kokią komandą naudosite?
 
 Pirmiausia, įkeliame paciento HPO fenotipus.
 ```
-python phen2gene.py -f example/HPO_sample.txt -out out/prioritizedgenelist
+python3 phen2gene.py -f example/HPO_sample.txt -out out/prioritizedgenelist
 ```
 * Galite įkelti HPO fenotipus savarankiškai naudodami ne iš karto sukurtą failą:
 ```
-python phen2gene.py -m HP:0000021 HP:0000027 HP:0030905 HP:0010628 -out out/prioritizedgenelist
+python3 phen2gene.py -m HP:0000021 HP:0000027 HP:0030905 HP:0010628 -out out/prioritizedgenelist
 ```
 // Aptarimo taškas. Prieš tęsdami darbus aptarkime eigą.
 
@@ -286,7 +286,7 @@ python phen2gene.py -m HP:0000021 HP:0000027 HP:0030905 HP:0010628 -out out/prio
 
 Mes jau turime sugeneruotus paciento HPO fenotipo duomenis `example` direktorijoje, tad paleiskite komandinę eilutę:
 ```
-python phen2gene.py -f example/ANKRD11_id.txt -w sk -out ankrd11
+python3 phen2gene.py -f example/ANKRD11_id.txt -w sk -out ankrd11
 ```
 
 Judame toliau. Mus domina reti variantai (MAF <1%) galėję turėti įtakos paciento fenotipui. Tam naudosime awk paketą ir komandinę eilutę:
