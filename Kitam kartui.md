@@ -88,6 +88,10 @@ Užduotys:
 3_S9722Nr42_all.vcf   - Kanalopatijos
 4_S4754Nr107_all.vcf  - Regos genų rinkinys
 5_S9855Nr39_all.vcf   - Rasopatijos
+
+Kitam kartui:
+S10415Nr10_all.vcf    - Su paveldimomis dermatologinėmis ligomis siejamų genų naujos kartos sekoskaitos tyrimas, įtariama įgimta delnų ir padų keratoderma (ichtiozė).
+
 ```
 
 Filtravimas:
