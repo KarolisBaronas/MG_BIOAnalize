@@ -79,24 +79,51 @@ Genų rinkinių aprašymas pagal numerį
 
 ```
 Pvz:
-S8300Nr41_all.vcf    - Neurofibromatozė
-S9904Nr35_all.vcf    - Ilgo QT sindromas
+S8300Nr41_all.vcf    - Neurofibromatozė (NM_001042492.3(NF1):c.[4676G>A];[4676=])
+S9904Nr35_all.vcf    - Ilgo QT sindromas (NG_008935.1(NM_000218.3)(KCNQ1):c.[477+1G>A];[477+1=])
 
 Užduotys:
-1_S10016Nr96_all.vcf  - Jungiamojo audinio patologija
-2_S10016Nr62_all.vcf  - MODY tipo diabetas
-3_S9722Nr42_all.vcf   - Kanalopatijos
-4_S4754Nr107_all.vcf  - Regos genų rinkinys
-5_S9855Nr39_all.vcf   - Rasopatijos
+1_S10016Nr96_all.vcf  - Jungiamojo audinio patologija (NM_000138.5(FBN1):c.[7606G>A];[7606=])
+2_S10016Nr62_all.vcf  - MODY tipo diabetas (NM_000162.5(GCK):c.[130G>A];[130=])
+3_S9722Nr42_all.vcf   - Kanalopatijos (NM_000218.3(KCNQ1):c.[1051_1065del];[1051_1065=])
+4_S4754Nr107_all.vcf  - Regos genų rinkinys (NM_001292009.2(EYS):c.9380_9399del(;)(9380_9399del))
+5_S9855Nr39_all.vcf   - Rasopatijos (NM_002834.5(PTPN11):c.[188A>G];[188=])
 
 Kitam kartui:
-S10415Nr10_all.vcf    - Su paveldimomis dermatologinėmis ligomis siejamų genų naujos kartos sekoskaitos tyrimas, įtariama įgimta delnų ir padų keratoderma (ichtiozė).
+S10415Nr10_all.vcf    - Su paveldimomis dermatologinėmis ligomis siejamų genų naujos kartos sekoskaitos tyrimas, įtariama įgimta delnų ir padų keratoderma (ichtiozė). (NM_173086.5(KRT6C):c.1414G>A))
 
 ```
 
-Filtravimas:
+Genų filtravimas:
 
 ```
-AI į pagalbą:))
+tr -d '\r' < /opt/home/karolisb/genai.txt | sed 's/(base)//g' | sed 's/[[:space:]]*$//' > /opt/home/karolisb/genai_clean.txt
+
+awk -F'\t' 'NR==FNR{genes[$1]; next} FNR==1{print; next} {split($8, arr, /[;,]/); for (i in arr) {gsub(/^ +| +$/, "", arr[i]); if (arr[i] in genes) {print; next}}}' /opt/home/karolisb/genai_clean.txt /opt/shared/MG25/Trecios_pratybos/Pvz/S8300Nr41_all.txt.hg19_multianno.txt > /opt/home/karolisb/filtered_variants.txt
 
 ```
+
+# Pratyboms 2025-05-05
+
+CNV anotacijos dokumentacija:
+```
+
+https://lbgi.fr/AnnotSV/Documentation/README.AnnotSV_latest.pdf
+
+```
+
+
+Genų rinkinių aprašymas pagal numerį
+
+```
+1_S10246Nr20	Kardiogenetika (aortopatija)	
+2_S10246Nr41	Inkstų ligų genų rinkinys (hematurija, proteinurija, histologiškai - židininė glomerulosklerozė; dif. su Alporto s.)
+3_S10246Nr34	prašau atlikti genų rinkinio tyrimą dėl MODY diabeto.
+4_S10246Nr69	Ištyrimui dėl neurofibromatozės	
+5_S10246Nr72	Inkstų ligų genų rinkinys (klinikinė dgn.: inkstų policistozė)	
+*_S10246Nr48	Genų, siejamų su Rendu-Osler-Weber sindromu, tyrimui	
+```
+
+Kitam kartui:
+
+S10246Nr51	Epilepsijos genų rinkinys	
