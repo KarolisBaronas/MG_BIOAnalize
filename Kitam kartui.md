@@ -126,4 +126,7 @@ Genų rinkinių aprašymas pagal numerį
 
 Kitam kartui:
 
-S10246Nr51	Epilepsijos genų rinkinys	
+```
+S10246Nr51	Epilepsijos genų rinkinys
+	
+```
