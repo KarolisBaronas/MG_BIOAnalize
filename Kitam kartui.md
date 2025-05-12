@@ -130,3 +130,27 @@ Kitam kartui:
 S10246Nr51	Epilepsijos genų rinkinys
 	
 ```
+
+# Pratyboms 2025-05-12
+```
+S4754Nr12 SKUBUS. VES tyrimui: vaisiui (17sav.) nustatyta hepatomegalija, ventrikulomegalija, paryškintas žarnynas, hipertelorimas įt. VNP LGH norma. Šeimoje antras atvejis. Pirmas vaisius 2015m. žuvo gimdymo metu: hepatosplenomegalija, corpus callosum agenezė, vidinė hidrocefalija, ascitas. Kariotipas norma: 46,XY. Lytys skirtingos. AR paveldėjimas ?
+
+S6344Nr55 Žemas raumenų tonusas. Veidas keturkampiškas, veido raukšlių asimetrija verkiant, žemyn svyra kairysis lūpų kampas. Aukšta kakta, kiek įspaustos smilkininės sritys. Displastiški ausų kaušeliai, žemas prisitvirtinimas, dešiniojo ausies kaušelio skiltelė hipoplastiška. Akių plyšių asimetrija (d<k), koloboma. Ilgas filtras. Siaura viršutinė lūpa, n.facialis parezė. Spenelinis hipertelorizmas. Politelija dešinėje. Didelė hemangioma kairiame šone, keletas smulkių hemangiomų po krūtinkaulio apatiniu kraštu. Kairės pėdos dorzaliniame paviršiuje rudos spalvos apgamas. Delnuose gilios delno linijos. Gilios sakralinės raukšlės su sakraline duobute. Kiek atitrauktas pėdos didysis pirštas. 	
+![image](https://github.com/user-attachments/assets/47f89380-12ae-4bab-a917-1930878f5490)
+
+```
+
+# Atsiskaitymui 2025-05-19 (26?)
+
+```
+1_S8412Nr1 SKUBUS. analizę atlikti prioritetine tvarka; dominuoja piktybinė somnolencija; mikrocefalija (-2,5 cm žemiau 3 proc.); motorinės, protinės raidos atsilikimas; raumenų išreikšta hipotonija; nevaikšto, nesiremia kojomis;
+
+2_S9050Nr1 SKUBUS. motina 14sav nėščia. Mikrocefalija (žemiau 3 procentilės, - 5 cm).Įspaustos smilkinkaulio sritys. Pakaušio srityje kraujagyslinė dėmė. Akių hipertelorizmas su abipusiu epikantu. Labai nedidelės nosies landos. Trumpas palygintas filtras. Pravira burna. Mikro/retrognatija. Santykinai dideli ausų kaušeliai su žemu jų prisitvirtinimu ir pronacija įstrižai atgal. Menkai diferencijuota dermatoglifika delnuose, delno linijos gaubia antrą pirštą. Nugaroje, sakralinėje srityje, hemangioma. Sakralinė duobutė. Pėdos antrasis pirštas kloja didįjį ir trečiąjį pirštus. Atsilieka psichomotorinė raida.
+
+3_S7856Nr1 SKUBUS. Viso žmogaus egzomo sekoskaitos tyrimas. Echoskopiškai vaisiui stebima cistinė hygroma, abiejų kojų šleivapėdystė, vieno inksto hydronefrozė (Noonan s.?, kt RASopatijos?).	
+
+4_S7273Nr61 SKUBUS egzomas, operuoja kylančios Ao dilataciją. Raidos sutrikimas, dismorfinės savybės, žvairumas, krūtininės aortos šaknies, kylančios dalies aneurizma.
+
+5_S5760Nr76 Skubus. Vaisiui buvo stebimos dauginės formavimosi ydos: abipusis lūpos ir gomurio nesuaugimas, įgimta širdies yda - Fallot tetrada, sprando edema. Šiuo metu nėštumas 11 sav. 3 d.	
+
+```
