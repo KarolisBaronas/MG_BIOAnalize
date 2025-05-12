@@ -142,14 +142,14 @@ S6344Nr55 Žemas raumenų tonusas. Veidas keturkampiškas, veido raukšlių asim
 # Atsiskaitymui 2025-05-19 (26?)
 
 ```
-1_S8412Nr1 SKUBUS. analizę atlikti prioritetine tvarka; dominuoja piktybinė somnolencija; mikrocefalija (-2,5 cm žemiau 3 proc.); motorinės, protinės raidos atsilikimas; raumenų išreikšta hipotonija; nevaikšto, nesiremia kojomis;
+1_S8412Nr1 (MOT, 2020-04-24) SKUBUS. analizę atlikti prioritetine tvarka; dominuoja piktybinė somnolencija; mikrocefalija (-2,5 cm žemiau 3 proc.); motorinės, protinės raidos atsilikimas; raumenų išreikšta hipotonija; nevaikšto, nesiremia kojomis;
 
-2_S9050Nr1 SKUBUS. motina 14sav nėščia. Mikrocefalija (žemiau 3 procentilės, - 5 cm).Įspaustos smilkinkaulio sritys. Pakaušio srityje kraujagyslinė dėmė. Akių hipertelorizmas su abipusiu epikantu. Labai nedidelės nosies landos. Trumpas palygintas filtras. Pravira burna. Mikro/retrognatija. Santykinai dideli ausų kaušeliai su žemu jų prisitvirtinimu ir pronacija įstrižai atgal. Menkai diferencijuota dermatoglifika delnuose, delno linijos gaubia antrą pirštą. Nugaroje, sakralinėje srityje, hemangioma. Sakralinė duobutė. Pėdos antrasis pirštas kloja didįjį ir trečiąjį pirštus. Atsilieka psichomotorinė raida.
+2_S9050Nr1 (MOT, 2021-09-23) SKUBUS. motina 14sav nėščia. Mikrocefalija (žemiau 3 procentilės, - 5 cm).Įspaustos smilkinkaulio sritys. Pakaušio srityje kraujagyslinė dėmė. Akių hipertelorizmas su abipusiu epikantu. Labai nedidelės nosies landos. Trumpas palygintas filtras. Pravira burna. Mikro/retrognatija. Santykinai dideli ausų kaušeliai su žemu jų prisitvirtinimu ir pronacija įstrižai atgal. Menkai diferencijuota dermatoglifika delnuose, delno linijos gaubia antrą pirštą. Nugaroje, sakralinėje srityje, hemangioma. Sakralinė duobutė. Pėdos antrasis pirštas kloja didįjį ir trečiąjį pirštus. Atsilieka psichomotorinė raida.
 
-3_S7856Nr1 SKUBUS. Viso žmogaus egzomo sekoskaitos tyrimas. Echoskopiškai vaisiui stebima cistinė hygroma, abiejų kojų šleivapėdystė, vieno inksto hydronefrozė (Noonan s.?, kt RASopatijos?).	
+3_S7856Nr1 (VYR, vaisius) SKUBUS. Viso žmogaus egzomo sekoskaitos tyrimas. Echoskopiškai vaisiui stebima cistinė hygroma, abiejų kojų šleivapėdystė, vieno inksto hydronefrozė (Noonan s.?, kt RASopatijos?).	
 
-4_S7273Nr61 SKUBUS egzomas, operuoja kylančios Ao dilataciją. Raidos sutrikimas, dismorfinės savybės, žvairumas, krūtininės aortos šaknies, kylančios dalies aneurizma.
+4_S7273Nr61 (VYR, 2017-06-15) SKUBUS egzomas, operuoja kylančios Ao dilataciją. Raidos sutrikimas, dismorfinės savybės, žvairumas, krūtininės aortos šaknies, kylančios dalies aneurizma.
 
-5_S5760Nr76 Skubus. Vaisiui buvo stebimos dauginės formavimosi ydos: abipusis lūpos ir gomurio nesuaugimas, įgimta širdies yda - Fallot tetrada, sprando edema. Šiuo metu nėštumas 11 sav. 3 d.	
+5_S5760Nr76 (VYR, vaisius) Skubus. Vaisiui buvo stebimos dauginės formavimosi ydos: abipusis lūpos ir gomurio nesuaugimas, įgimta širdies yda - Fallot tetrada, sprando edema. Šiuo metu nėštumas 11 sav. 3 d.	
 
 ```
