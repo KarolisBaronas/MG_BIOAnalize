@@ -1,5 +1,5 @@
 # VISADA PASITIKRINKITE "Kitam kartui.md"
-Atnaujinta 2025-05-05
+Atnaujinta 2025-05-12
 # Pratybos
 "Biotechnologijos metodai ir bioinformacinė analizė" užsiėmimų pratybų medžiaga medicinos genetikos pirmo kurso studentams.
 
