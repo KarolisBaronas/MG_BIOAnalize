@@ -135,8 +135,7 @@ S10246Nr51	Epilepsijos genų rinkinys
 ```
 S4754Nr12 SKUBUS. VES tyrimui: vaisiui (17sav.) nustatyta hepatomegalija, ventrikulomegalija, paryškintas žarnynas, hipertelorimas įt. VNP LGH norma. Šeimoje antras atvejis. Pirmas vaisius 2015m. žuvo gimdymo metu: hepatosplenomegalija, corpus callosum agenezė, vidinė hidrocefalija, ascitas. Kariotipas norma: 46,XY. Lytys skirtingos. AR paveldėjimas ?
 
-S6344Nr55 Žemas raumenų tonusas. Veidas keturkampiškas, veido raukšlių asimetrija verkiant, žemyn svyra kairysis lūpų kampas. Aukšta kakta, kiek įspaustos smilkininės sritys. Displastiški ausų kaušeliai, žemas prisitvirtinimas, dešiniojo ausies kaušelio skiltelė hipoplastiška. Akių plyšių asimetrija (d<k), koloboma. Ilgas filtras. Siaura viršutinė lūpa, n.facialis parezė. Spenelinis hipertelorizmas. Politelija dešinėje. Didelė hemangioma kairiame šone, keletas smulkių hemangiomų po krūtinkaulio apatiniu kraštu. Kairės pėdos dorzaliniame paviršiuje rudos spalvos apgamas. Delnuose gilios delno linijos. Gilios sakralinės raukšlės su sakraline duobute. Kiek atitrauktas pėdos didysis pirštas. 	
-![image](https://github.com/user-attachments/assets/47f89380-12ae-4bab-a917-1930878f5490)
+S6344Nr55 Žemas raumenų tonusas. Veidas keturkampiškas, veido raukšlių asimetrija verkiant, žemyn svyra kairysis lūpų kampas. Aukšta kakta, kiek įspaustos smilkininės sritys. Displastiški ausų kaušeliai, žemas prisitvirtinimas, dešiniojo ausies kaušelio skiltelė hipoplastiška. Akių plyšių asimetrija (d<k), koloboma. Ilgas filtras. Siaura viršutinė lūpa, n.facialis parezė. Spenelinis hipertelorizmas. Politelija dešinėje. Didelė hemangioma kairiame šone, keletas smulkių hemangiomų po krūtinkaulio apatiniu kraštu. Kairės pėdos dorzaliniame paviršiuje rudos spalvos apgamas. Delnuose gilios delno linijos. Gilios sakralinės raukšlės su sakraline duobute. Kiek atitrauktas pėdos didysis pirštas. 
 
 ```
 
