@@ -258,7 +258,7 @@ Kokią komandą naudosite?
 
 * Labiau patyrusiems vartotojams, vietoj anksčiau minėtų eilučių, galima "klonuoti" duomenų saugyklą:
 ```
-conda install git
+#conda install git (ilgas procesas)
 git clone https://github.com/WGLab/Phen2Gene.git
 cd Phen2Gene
 ```
