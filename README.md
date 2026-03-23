@@ -1,5 +1,5 @@
 # VISADA PASITIKRINKITE "Kitam kartui.md"
-Atnaujinta 2025-05-12
+Atnaujinta 2026-03-23
 # Pratybos
 "Biotechnologijos metodai ir bioinformacinė analizė" užsiėmimų pratybų medžiaga medicinos genetikos pirmo kurso studentams.
 
@@ -142,7 +142,7 @@ ANNOVAR tai puikus įrankis skirtas atlikti anotaciją. Visą dokumentaciją gal
 Pratyboms reikalinga "lengva" ANNOVAR versija bei kiti resursai talpinami:
 ```
 
-/opt/shared/MG25/Pirmos_pratybos/
+/opt/shared/MG26/Pirmos_pratybos/
 
 ```
 ANNOVAR užduočiai reikės pratybu_medziaga.zip failiuko esančio resursų kataloge.
