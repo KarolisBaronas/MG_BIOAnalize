@@ -7,11 +7,11 @@ Atnaujinta 2026-03-23
 Studentas savarankiškai paruošia duotos klinikinės situacijos analizės pristatymą. 
 
 # Pristatymo vertinimo kriterijai
-#### Klinikinės situacijos aptarimas – paciento fenotipas, atlikti instrumentiniai tyrimai, genealogija, kiti svarbūs faktai apie pacientą (2 balai);
+#### Klinikinės situacijos aptarimas – paciento fenotipas, atlikti instrumentiniai tyrimai, genealogija, kiti svarbūs faktai apie pacientą (0 balų - privalomas ir priklauso nuo paciento duomenų);
 
-#### NKS duomenų analizės rezultatai – pacientui nustatytų kliniškai reikšmingų genomo variantų analizė, in silico įverčių aptarimas, baltymo struktūros pokyčių įvertinimas ir vizualizacija (4 balai);
+#### NKS duomenų analizės rezultatai – pacientui nustatytų kliniškai reikšmingų genomo variantų analizė, in silico įverčių aptarimas, baltymo struktūros pokyčių įvertinimas ir/arba vizualizacija (5 balai);
 
-#### Genotipo ir paciento fenotipo analizė – gautų rezultatų susiejimas su paciento fenotipu, išvados formulavimas ir pateikimas (genotipas pagal HGVS nomenklatūrą) (2 balai);
+#### Genotipo ir paciento fenotipo analizė – gautų rezultatų susiejimas su paciento fenotipu, išvados formulavimas ir pateikimas (genotipas pagal HGVS nomenklatūrą) (3 balai);
 
 #### Atsakymai į pateiktus klausimus (2 balai).
 
@@ -24,6 +24,16 @@ Pagrindiniai programiniai paketai naudojami failų anotavimui - `Perl` ir `ANNOV
 
 Prisiminimui pagrindinės UNIX komandos - https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
 
+## Naudojant mobaXterm - conda jau instaliuota serveryje
+
+Norint suaktyvuoti conda zmgk2 serveryje parašykite:
+
+```
+source /opt/packages/anaconda3/etc/profile.d/conda.sh
+conda activate
+
+```
+Suaktyvinus conda eikite į "Suinstaliavus/suaktyvinus Anaconda ar Miniconda"
 ## Windows
 
 Programinės įrangos valdymui Windows aplinkoje rekomenduoju naudoti `Anaconda`.
@@ -44,7 +54,7 @@ MacOS aplinkoje turite terminalą ir priėjimą prie visų paprastų UNIX komand
 
 Linux vartotojams dažnai papildomų "organizacinių" paketų instaliuoti nereikia.
 
-## Suinstaliavus Anaconda ar Miniconda
+## Suinstaliavus/suaktyvinus Anaconda ar Miniconda
 
 Suinstaliavus `Anaconda (conda)` rekomenduoju sekti [nuorodą](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) ir patikrinti ar teisingai įrašėte programinę įrangą.
 
