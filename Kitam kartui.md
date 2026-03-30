@@ -23,3 +23,61 @@ Nuodugniai peržvelgti ir susipažinti su anotacijoje naudojamais įrankiais ir 
 Nuodugniai perskaityti ir pasižymėti/išsirašyti įrankių cutoff reikšmes: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9774026/
 
 Susipažinti: https://varnomen.hgvs.org/
+
+# Pratybos 2026-03-30
+
+Galimos db serveryje:
+
+cytoBand
+
+refGene
+
+avsnp150
+
+1000g2015aug_all
+
+1000g2015aug_eur
+
+exac03nonpsych
+
+gnomad_genome
+
+kaviar_20150923
+
+clinvar_20221231
+
+intervar_20180118
+
+cosmic70
+
+regsnpintron
+
+dbscsnv11
+
+dbnsfp41a
+
+cadd13gt10
+
+gerp++gt2
+
+phastConsElements46way
+
+dbnsfp35a
+
+Konvertavimas: (pakeiskite out ">" direktoriją)
+```
+perl /opt/packages/annovar/convert2annovar.pl  -format vcf4 --withzyg /opt/shared/MG26/*.vcf > /opt/home/*.avinput
+
+```
+Anotavimas: (pakeiskite out "-out" direktoriją, trunka apie 30 min)
+```
+perl /opt/packages/annovar/table_annovar.pl /opt/home/*.avinput /opt/packages/annovar/humandb/ -buildver hg19 -out /opt/home/*.txt -remove -protocol cytoBand,refGene,avsnp150,1000g2015aug_all,1000g2015aug_eur,exac03nonpsych,gnomad_genome,kaviar_20150923,clinvar_20221231,intervar_20180118,cosmic70,regsnpintron,dbscsnv11,dbnsfp41a,cadd13gt10,gerp++gt2,phastConsElements46way,dbnsfp35a -operation r,g,f,f,f,f,f,f,f,f,f,f,f,f,f,f,r,f -nastring NA -otherinfo
+
+```
+
+Genų rinkinių aprašymas pagal numerį
+
+```
+Pvz:
+S8300Nr41_all.vcf    - Neurofibromatozė
+S9904Nr35_all.vcf    - Ilgo QT sindromas
