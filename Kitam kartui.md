@@ -81,3 +81,29 @@ Genų rinkinių aprašymas pagal numerį
 Pvz:
 S8300Nr41_all.vcf    - Neurofibromatozė
 S9904Nr35_all.vcf    - Ilgo QT sindromas
+
+# Pratyboms 2025-04-13
+
+Genų filtravimas:
+
+```
+tr -d '\r' < /opt/home/karolisb/genai.txt | sed 's/(base)//g' | sed 's/[[:space:]]*$//' > /opt/home/karolisb/genai_clean.txt
+
+awk -F'\t' 'NR==FNR{genes[$1]; next} FNR==1{print; next} {split($8, arr, /[;,]/); for (i in arr) {gsub(/^ +| +$/, "", arr[i]); if (arr[i] in genes) {print; next}}}' /opt/home/karolisb/genai_clean.txt /opt/shared/MG25/Trecios_pratybos/Pvz/S8300Nr41_all.txt.hg19_multianno.txt > /opt/home/karolisb/filtered_variants.txt
+
+```
+Genų rinkinių aprašymas pagal numerį
+
+```
+Užduotys:
+1_S10016Nr96_all.vcf  - Jungiamojo audinio patologija
+2_S10016Nr62_all.vcf  - MODY tipo diabetas
+3_S9722Nr42_all.vcf   - Kanalopatijos
+4_S4754Nr107_all.vcf  - Regos genų rinkinys
+5_S9855Nr39_all.vcf   - Rasopatijos
+
+Kitam kartui:
+S10415Nr10_all.vcf    - Su paveldimomis dermatologinėmis ligomis siejamų genų naujos kartos sekoskaitos tyrimas, įtariama įgimta delnų ir padų keratoderma (ichtiozė).
+
+```
+
