@@ -82,6 +82,7 @@ Pvz:
 S8300Nr41_all.vcf    - Neurofibromatozė
 S9904Nr35_all.vcf    - Ilgo QT sindromas
 
+```
 # Pratyboms 2025-04-13
 
 Genų filtravimas:
