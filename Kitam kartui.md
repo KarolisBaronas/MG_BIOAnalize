@@ -107,4 +107,30 @@ Kitam kartui:
 S10415Nr10_all.vcf    - Su paveldimomis dermatologinėmis ligomis siejamų genų naujos kartos sekoskaitos tyrimas, įtariama įgimta delnų ir padų keratoderma (ichtiozė).
 
 ```
+# Pratyboms 2026-04-20
 
+CNV anotacijos dokumentacija:
+```
+
+https://lbgi.fr/AnnotSV/Documentation/README.AnnotSV_latest.pdf
+
+```
+
+
+Genų rinkinių aprašymas pagal numerį
+
+```
+1_S10246Nr20	Kardiogenetika (aortopatija)	
+2_S10246Nr41	Inkstų ligų genų rinkinys (hematurija, proteinurija, histologiškai - židininė glomerulosklerozė; dif. su Alporto s.)
+3_S10246Nr34	prašau atlikti genų rinkinio tyrimą dėl MODY diabeto.
+4_S10246Nr69	Ištyrimui dėl neurofibromatozės	
+5_S10246Nr72	Inkstų ligų genų rinkinys (klinikinė dgn.: inkstų policistozė)	
+*_S10246Nr48	Genų, siejamų su Rendu-Osler-Weber sindromu, tyrimui	
+```
+
+Kitam kartui:
+
+```
+S10246Nr51	Epilepsijos genų rinkinys
+	
+```
